@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 11px;
+    margin: 5px;
+}
+
+.header h1 {
+    font-family: cursive;
+    color: blue;
+    margin: 10px 0;
+}
+
+
+
+.section {
+    border: 2px solid blue;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+
+
+.images {
+    gap: 15px;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.audio-list {
+    margin-top: 10px;
+}
+
+.audio-item {
+    margin-bottom: 15px;
+}
+
+.audio-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+audio {
+    width: 350px;
+    height: 35px;
+}
+
+
+
+
+.videos {
+    margin-top: 10px;
+}
+
+.videos video {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
